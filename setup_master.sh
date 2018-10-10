@@ -16,7 +16,7 @@ apt-get -y install ansible
 
 # Make slave1 and slave2 as known hosts
 echo "192.168.33.20 slave1" >> /etc/hosts
-echo "192.168.33.20 slave2" >> /etc/hosts
+echo "192.168.33.30 slave2" >> /etc/hosts
 
 # Tell ansible we want to manage slave1 and slave2
 echo "slave1" >> /etc/ansible/hosts
